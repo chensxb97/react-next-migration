@@ -1,0 +1,49 @@
+.right-button {
+    text-align: right;
+    margin: 10px 0px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-button {
+    color: white;
+    font-weight: large;
+}
+
+.edit-button {
+    margin: 0px 5px 0px;
+    background-color: lightslategrey;
+    color: white;
+    font-weight: large;
+}
+
+.clone-button {
+    margin: 0px 5px 0px;
+    background-color: lightseagreen;
+    color: white;
+    font-weight: large;
+}
+
+.delete-button {
+    margin: 0px 5px 0px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: large;
+}
+
+.users-table .ant-table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.users-table .ant-table-tbody>tr:last-child>td:first-child {
+    border-bottom-left-radius: 12px;
+}
+
+.users-table .ant-table-tbody>tr:last-child>td:last-child {
+    border-bottom-right-radius: 12px;
+}
