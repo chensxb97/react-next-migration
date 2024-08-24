@@ -9,5 +9,7 @@ We will follow the steps outlined in the [NextJS docs](https://nextjs.org/docs/a
 
 **Phase 1**: Initial Migration should create a fully functional application written in the NextJS framework. App should still be purely rendered on the client.
 
-**Phase 2**: Slowly migrate some components to server components.
+**Phase 2**: With the newly migrated next app running on ClientOnly mode, backend APIs implemented in nodejs should be migrated as well.
+
+**Phase 3**: Slowly migrate each client component to server components.
 
