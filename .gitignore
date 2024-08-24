@@ -1,4 +1,5 @@
 /node_modules
 /build
+/backend/node_modules
 .next
 next-env.d.ts
