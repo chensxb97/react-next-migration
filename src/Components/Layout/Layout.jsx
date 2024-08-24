@@ -34,7 +34,7 @@ const PageContent = () => {
         <div className="page-content">
             <Routes>
                 <Route path="/" exact element={<Home />} />
-                <Route path="/doc" element={<Documentation />} />
+                <Route path="/docs" element={<Documentation />} />
                 <Route path="/users" element={<Users />} />
             </Routes>
         </div>
